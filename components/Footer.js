@@ -46,7 +46,7 @@ const Footer = () => {
         </section>
       </div>
       <hr className='w-full border-gray-500 my-3' />
-      <section className='flex justify-center text-sm'>
+      <section className='flex justify-center text-xs'>
         <p className='text-gray-600'>&copy; 2023 Shrivastava Lab. All rights reserved.</p>
       </section>
     </footer>
