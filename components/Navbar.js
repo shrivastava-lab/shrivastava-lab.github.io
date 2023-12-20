@@ -6,7 +6,7 @@ import Link from 'next/link'
  */
 const Navbar = () => {
   return (
-    <nav className='w-full bg-custom-red flex flex-row justify-between align-middle p-5 text-white font-serif fixed top-0'>
+    <nav className='w-full bg-custom-red flex flex-row justify-between align-middle p-5 text-white font-serif fixed top-0 drop-shadow'>
       <section className='basis-1/5'>
         <Link className='text-xl' href='/'>
           Shrivastava Lab

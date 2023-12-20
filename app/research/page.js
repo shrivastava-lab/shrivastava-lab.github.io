@@ -4,7 +4,7 @@ import content from './_data.json'
 function ResearchComponent() {
   const renderHeader = () => (
     <div className='h-72 w-full bg-research-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
-      <h1 className='text-7xl font-serif text-white'>Research</h1>
+      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-72 py-6'>Research</h1>
     </div>
   )
 
