@@ -6,7 +6,7 @@ import content from './_data'
 function PeopleComponent() {
   const renderHeader = () => (
     <div className='h-72 w-full bg-people-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
-      <h1 className='text-7xl font-serif text-custom-red bg-gray-400/50 rounded px-72 py-6 hover:underline'>People</h1>
+      <h1 className='text-7xl font-serif text-custom-red bg-gray-400/50 rounded px-72 py-6'>People</h1>
     </div>
   )
 

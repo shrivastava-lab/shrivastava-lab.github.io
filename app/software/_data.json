@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Particle tracker (MATLAB)",
+    "excerpt": "This script tracks the centroid of a moving bacterial cell. At the end of the code it plots the centroids from consecutive frames.",
+    "link": {
+      "text": "Abhishek935/Particle-Tracker-MATLAB",
+      "url": "https://github.com/Abhishek935/Particle-Tracker-MATLAB"
+    }
+  },
+  {
+    "title": "Bacterial growth tracker (MATLAB)",
+    "excerpt": "This script measures the area of E. coli cells growing on agar surface from a video file. At the end of the code it plots the change in area as a function of time.",
+    "link": {
+      "text": "Abhishek935/Growth-tracker-MATLAB",
+      "url": "https://github.com/Abhishek935/Growth-tracker-MATLAB/blob/master/growth.m"
+    }
+  },
+  {
+    "title": "Molecular Rack and Pinion",
+    "excerpt": "Reference: Shrivastava and Berg, BioRxiv 2019 https://doi.org/10.1101/267583",
+    "link": {
+      "text": "Abhishek935/Molecular-Rack-and-Pinion",
+      "url": "https://github.com/Abhishek935/Molecular-Rack-and-Pinion"
+    }
+  },
+  {
+    "title": "Screw-like bacterial motion",
+    "excerpt": "Reference: Shrivastava, Roland, Berg. Biophysical J. 2016 https://www.sciencedirect.com",
+    "link": {
+      "text": "Abhishek935/Screw-like-bacterial-motion-Biophysical-J.-2016",
+      "url": "https://github.com/Abhishek935/Screw-like-bacterial-motion-Biophysical-J.-2016"
+    }
+  },
+  {
+    "title": "Rotary motor (Current Biol. 2015)",
+    "excerpt": "Reference: Shrivastava, Lele, Berg Current Biology 2015 https://www.cell.com/current-biology/pdf",
+    "link": {
+      "text": "Abhishek935/Rotary-Motor-Current-Biol.-2015",
+      "url": "https://github.com/Abhishek935/Rotary-Motor-Current-Biol.-2015"
+    }
+  }
+]
