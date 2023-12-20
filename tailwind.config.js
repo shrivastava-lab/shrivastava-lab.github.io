@@ -11,9 +11,7 @@ module.exports = {
         'custom-red': '#980000',
       },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'research-hero': "url('/images/Spatial Organization of the Microbiome.jpeg')",
       },
     },
   },
