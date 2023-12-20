@@ -3,8 +3,8 @@ import content from './_data.json'
 
 function PublicationComponent() {
   const renderHeader = () => (
-    <div className='h-72 w-full bg-publication-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center relative hero'>
-      <h1 className='text-7xl font-serif text-white'>Publications</h1>
+    <div className='h-72 w-full bg-publication-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
+      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-72 py-6'>Publications</h1>
     </div>
   )
 
