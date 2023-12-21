@@ -17,6 +17,7 @@ module.exports = {
         'software-hero': "url('/images/softwares.jpeg')",
         'news-hero': "url('/images/news.jpeg')",
         'blog-hero': "url('/images/blog.jpeg')",
+        'joinus-hero': "url('/images/joinus.jpeg')",
       },
     },
   },
