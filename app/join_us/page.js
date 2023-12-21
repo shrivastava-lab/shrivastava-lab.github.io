@@ -1,5 +1,4 @@
 import React from 'react'
-import content from './_data.json'
 
 function JoinUsComponent() {
   const renderHeader = () => (
@@ -9,7 +8,7 @@ function JoinUsComponent() {
   )
 
   const renderContent = () => (
-    <div className='px-80 py-10 font-serif h-[27rem]'>
+    <div className='px-80 py-10 font-serif h-[28rem]'>
       <p className='my-5 text-center'>
         We are always looking for motivated Postdocs, PhD students, and Undergraduates researchers.
       </p>

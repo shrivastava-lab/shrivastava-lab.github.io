@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import ASU_seal from '../public/images/ASU_seal.png'
+import twitterX from '../public/images/Twitter X.svg'
 
 /**
  * Footer component for the website.
@@ -9,7 +10,7 @@ import ASU_seal from '../public/images/ASU_seal.png'
  */
 const Footer = () => {
   return (
-    <footer className='w-full bg-gray-400 p-4'>
+    <footer className='w-full bg-gray-400 pt-4 px-4'>
       <div className='flex flex-row justify-between align-middle font-serif'>
         <section className='flex flex-col justify-center'>
           {/* Faculty Corner */}
@@ -45,9 +46,16 @@ const Footer = () => {
           <h2>Mechanisms of Evolution </h2>
         </section>
       </div>
-      <hr className='w-full border-gray-500 my-3' />
-      <section className='flex justify-center text-xs'>
+      <hr className='w-full border-gray-500 my-2' />
+      <section className='flex flex-row justify-between items-center text-xs'>
+        <p className='w-20'/>
         <p className='text-gray-600'>&copy; 2023 Shrivastava Lab. All rights reserved.</p>
+        <div className='flex flex-row justify-center items-center'>
+          <p className='text-gray-600'>Follow us on:</p>
+          <a href='https://twitter.com/ShrivastavaLab'>
+            <Image className='w-7 h-7' src={twitterX} alt='twitterX' />
+          </a>
+        </div>
       </section>
     </footer>
   )
