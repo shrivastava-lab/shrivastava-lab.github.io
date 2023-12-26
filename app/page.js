@@ -20,7 +20,7 @@ export default function Home() {
   const renderCarousal = () => (
     <Carousel showArrows autoPlay infiniteLoop showStatus={false} showThumbs={false} autoFocus className='w-2/3 my-20'>
       <div>
-        <Image src={The_team} alt='The Team' className='object-cover h-96 w-full' />
+        <Image src={The_team} alt='The Team' className='object-cover h-96 w-full' priority/>
         <p className='legend'>The Team</p>
       </div>
       <div>
