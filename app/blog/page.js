@@ -4,7 +4,7 @@ import content from './_data.json'
 function BlogComponent() {
   const renderHeader = () => (
     <div className='h-72 w-full bg-blog-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
-      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-72 py-6'>Blog</h1>
+      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-5 lg:px-72 py-6'>Blog</h1>
     </div>
   )
 
@@ -37,7 +37,7 @@ function BlogComponent() {
   }
 
   const renderContent = () => (
-    <div className='px-80 py-10 font-serif'>
+    <div className='lg:px-80 px-8 py-10 font-serif'>
       <p className='my-5'>
         This section contains blog posts that we think might be informative for scientists and science enthusiasts
         around the world.

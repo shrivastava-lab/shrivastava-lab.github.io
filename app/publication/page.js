@@ -4,12 +4,12 @@ import content from './_data.json'
 function PublicationComponent() {
   const renderHeader = () => (
     <div className='h-72 w-full bg-publication-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
-      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-72 py-6'>Publications</h1>
+      <h1 className='text-6xl lg:text-7xl font-serif text-white bg-gray-400/50 rounded px-5 lg:px-72 py-6'>Publications</h1>
     </div>
   )
 
   const renderContent = () => (
-    <div className='px-80 py-10 font-serif'>
+    <div className='lg:px-80 px-6 py-10 font-serif'>
       <p className='text-xl text-custom-red my-5'>
         Google Scholar{' '}
         <a href='https://scholar.google.com/citations?user=0nHQjzwAAAAJ&hl=en' className='underline font-bold'>

@@ -4,7 +4,7 @@ import content from './_data.json'
 function NewsComponent() {
   const renderHeader = () => (
     <div className='h-72 w-full bg-news-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
-      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-72 py-6'>News</h1>
+      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-5 lg:px-72 py-6'>News</h1>
     </div>
   )
 
@@ -26,7 +26,7 @@ function NewsComponent() {
   }
 
   const renderContent = () => (
-    <div className='px-80 py-10 font-serif'>
+    <div className='lg:px-80 px-6 py-10 font-serif'>
       {content.map((item, index) => (
         <div key={index} className='flex flex-row my-4'>
           <p className='text-base text-custom-red mr-5'>{item.date}</p>

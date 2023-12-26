@@ -3,12 +3,12 @@ import React from 'react'
 function JoinUsComponent() {
   const renderHeader = () => (
     <div className='h-72 w-full bg-joinus-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
-      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-72 py-6'>Join Us</h1>
+      <h1 className='lg:text-7xl text-5xl font-serif text-white bg-gray-400/50 rounded px-5 lg:px-72 py-6'>Join Us</h1>
     </div>
   )
 
   const renderContent = () => (
-    <div className='px-80 py-10 font-serif h-[28rem]'>
+    <div className='lg:px-80 px-7 py-10 font-serif h-[28rem]'>
       <p className='my-5 text-center'>
         We are always looking for motivated Postdocs, PhD students, and Undergraduates researchers.
       </p>

@@ -60,6 +60,7 @@ const Navbar = () => {
           isOpen={isOpen}
           customBurgerIcon={<Image src={hamburger} className='size-6' alt='Hamburger' />}
           onStateChange={(state) => handleStateChange(state)}
+          width={'60%'}
         >
           {renderLinks()}
         </Menu>
