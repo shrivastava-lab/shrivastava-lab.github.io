@@ -11,8 +11,8 @@ import twitterX from '../public/images/Twitter X.svg'
 const Footer = () => {
   return (
     <footer className='w-full bg-gray-400 pt-4 px-4'>
-      <div className='flex flex-row justify-between align-middle font-serif'>
-        <section className='flex flex-col justify-center'>
+      <div className='flex flex-col lg:flex-row justify-between items-center font-serif'>
+        <section className='flex flex-col justify-center text-center lg:text-left'>
           {/* Faculty Corner */}
           <h2 className='underline'>Faculty Corner:</h2>
           <Link className='text-lg hover:text-blue-800' href='https://search.asu.edu/profile/3521802'>
@@ -28,16 +28,16 @@ const Footer = () => {
             Biodesign Institute(biodesign.asu.edu)
           </Link>
         </section>
-        <section className='flex'>
+        <section className='flex justify-between items-center my-4'>
           {/* ASU Seal */}
-          <Image src={ASU_seal} alt='ASU Seal' height={80} className='m-2' />
+          <Image src={ASU_seal} alt='ASU Seal' className='m-2 w-20 h-20' />
           <section className='flex flex-col text-center text-custom-red items-center justify-center'>
             <h2 className='text-lg'>Arizona State University</h2>
             <h2 className='text-base'>1001 S. McAllister Ave.</h2>
             <h2 className='text-base'>Tempe, AZ 85281, USA</h2>
           </section>
         </section>
-        <section className='flex flex-col text-right text-sm justify-center'>
+        <section className='flex flex-col text-center lg:text-right text-sm justify-center'>
           {/* Center Affiliations @ASU */}
           <h2>Center Affiliations @ASU</h2>
           <h2>Fundamental and Applied Microbiomics</h2>
@@ -46,9 +46,8 @@ const Footer = () => {
           <h2>Mechanisms of Evolution </h2>
         </section>
       </div>
-      <hr className='w-full border-gray-500 my-2' />
+      <hr className='w-full border-gray-500 mt-2' />
       <section className='flex flex-row justify-between items-center text-xs'>
-        <p className='w-20'/>
         <p className='text-gray-600'>&copy; 2023 Shrivastava Lab. All rights reserved.</p>
         <div className='flex flex-row justify-center items-center'>
           <p className='text-gray-600'>Follow us on:</p>
