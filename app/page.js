@@ -10,7 +10,7 @@ import swarm_behavior from '../public/images/Swarm Behavior of Microbes.jpeg'
 
 export default function Home() {
   const renderSalutation = () => (
-    <section className='w-full bg-gray-100 flex flex-col items-center justify-center p-8 mb-2'>
+    <section className='w-full bg-gray-100 flex flex-col items-center justify-center p-8 mb-2 text-center'>
       <h1 className='font-bold text-4xl'>Shrivastava Lab</h1>
       <h2 className='text-2xl my-2'>Biophysics, Computational Biology, and Microbiology</h2>
       <h3 className='text-red-900 text-2xl'>Arizona State University</h3>
