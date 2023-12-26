@@ -4,7 +4,7 @@ import content from './_data.json'
 function ResearchComponent() {
   const renderHeader = () => (
     <div className='h-72 w-full bg-research-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
-      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-72 py-6'>Research</h1>
+      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-5 lg:px-72 py-6'>Research</h1>
     </div>
   )
 
@@ -39,10 +39,10 @@ function ResearchComponent() {
   )
 
   const renderContent = () => (
-    <div className='px-80 py-10 font-serif text-center'>
+    <div className='lg:px-80 px-10 py-10 font-serif text-center'>
       <p className='text-xl text-red-800 font-bold'>{content.main_headline}</p>
       {content.projects.map((project, project_index) => (
-        <div key={project_index} className='py-10'>
+        <div key={project_index} className='pt-10 pd-5'>
           <p className='text-base font-bold text-red-800'>{project.headline}</p>
           <div className='py-5'>
             {project.content.map((paragraph, index) => (
