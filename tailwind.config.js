@@ -10,6 +10,10 @@ module.exports = {
       colors:{
         'custom-red': '#980000',
       },
+      fontFamily: {
+        // 'serif': ['Lora', 'serif']
+        'serif': ['EB Garamond', 'serif']
+      },
       backgroundImage: {
         'research-hero': "url('/images/Spatial Organization of the Microbiome.jpeg')",
         'people-hero': "url('/images/The Team.jpeg')",
