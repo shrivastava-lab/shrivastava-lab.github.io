@@ -20,28 +20,28 @@ const Navbar = () => {
 
   const renderLinks = () => (
     <>
-      <Link className='hover:text-yellow-300 menu-item mb-3' href='/' onClick={handleMenuItemClick}>
+      <Link className='hover:text-yellow-300 menu-item mb-3 md:mb-0' href='/' onClick={handleMenuItemClick}>
         Home
       </Link>
-      <Link className='hover:text-yellow-300 menu-item mb-3' href='/research' onClick={handleMenuItemClick}>
+      <Link className='hover:text-yellow-300 menu-item mb-3 md:mb-0' href='/research' onClick={handleMenuItemClick}>
         Research
       </Link>
-      <Link className='hover:text-yellow-300 menu-item mb-3' href='/people' onClick={handleMenuItemClick}>
+      <Link className='hover:text-yellow-300 menu-item mb-3 md:mb-0' href='/people' onClick={handleMenuItemClick}>
         People
       </Link>
-      <Link className='hover:text-yellow-300 menu-item mb-3' href='/publication' onClick={handleMenuItemClick}>
+      <Link className='hover:text-yellow-300 menu-item mb-3 md:mb-0' href='/publication' onClick={handleMenuItemClick}>
         Publications
       </Link>
-      <Link className='hover:text-yellow-300 menu-item mb-3' href='/software' onClick={handleMenuItemClick}>
+      <Link className='hover:text-yellow-300 menu-item mb-3 md:mb-0' href='/software' onClick={handleMenuItemClick}>
         Software
       </Link>
-      <Link className='hover:text-yellow-300 menu-item mb-3' href='/news' onClick={handleMenuItemClick}>
+      <Link className='hover:text-yellow-300 menu-item mb-3 md:mb-0' href='/news' onClick={handleMenuItemClick}>
         News
       </Link>
-      <Link className='hover:text-yellow-300 menu-item mb-3' href='/blog' onClick={handleMenuItemClick}>
+      <Link className='hover:text-yellow-300 menu-item mb-3 md:mb-0' href='/blog' onClick={handleMenuItemClick}>
         Blog
       </Link>
-      <Link className='hover:text-yellow-300 menu-item mb-3' href='/join_us' onClick={handleMenuItemClick}>
+      <Link className='hover:text-yellow-300 menu-item mb-3 md:mb-0' href='/join_us' onClick={handleMenuItemClick}>
         Join Us
       </Link>
     </>
