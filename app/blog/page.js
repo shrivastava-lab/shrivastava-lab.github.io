@@ -37,7 +37,7 @@ function BlogComponent() {
   }
 
   const renderContent = () => (
-    <div className='lg:px-80 px-8 py-10 font-serif'>
+    <div className='lg:px-80 md:px-16 px-8 py-10 font-serif'>
       <p className='my-5'>
         This section contains blog posts that we think might be informative for scientists and science enthusiasts
         around the world.

@@ -26,7 +26,7 @@ function NewsComponent() {
   }
 
   const renderContent = () => (
-    <div className='lg:px-80 px-6 py-10 font-serif'>
+    <div className='lg:px-80 md:px-12 px-6 py-10 font-serif'>
       {content.map((item, index) => (
         <div key={index} className='flex flex-row my-4'>
           <p className='text-base text-custom-red mr-5'>{item.date}</p>

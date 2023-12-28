@@ -40,7 +40,7 @@ const Navbar = () => {
    * @returns {string} The CSS class name.
    */
   const getClassName = (currentRoute) => {
-    if (pathname === currentRoute) return 'text-yellow-300 menu-item mb-3 md:mb-0 font-bold text-lg'
+    if (pathname === currentRoute) return 'text-yellow-300 menu-item mb-3 md:mb-0 font-bold text-base'
     return 'hover:text-yellow-300 menu-item mb-3 md:mb-0'
   }
 
