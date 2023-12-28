@@ -1,12 +1,8 @@
 import React from 'react'
 import content from './_data.json'
+import PageLayout from '@/layouts/PageLayout'
 
 function BlogComponent() {
-  const renderHeader = () => (
-    <div className='h-72 w-full bg-blog-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
-      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-5 lg:px-72 py-6'>Blog</h1>
-    </div>
-  )
 
   const renderLinksInContext = (context, main_index) => {
     if (!context.includes('%%')) return context
@@ -36,8 +32,8 @@ function BlogComponent() {
     return <p className='text-base'>{renderLinksInContext(context, index)}</p>
   }
 
-  const renderContent = () => (
-    <div className='lg:px-80 md:px-16 px-8 py-10 font-serif'>
+  const renderPageContent = () => (
+    <>
       <p className='my-5'>
         This section contains blog posts that we think might be informative for scientists and science enthusiasts
         around the world.
@@ -49,14 +45,13 @@ function BlogComponent() {
           {renderContext(item.context, index)}
         </div>
       ))}
-    </div>
+    </>
   )
 
   return (
-    <div>
-      {renderHeader()}
-      {renderContent()}
-    </div>
+    <PageLayout pageHeading='Blog' backgroundImageExtension='blog' >
+      {renderPageContent()}
+    </PageLayout>
   )
 }
 

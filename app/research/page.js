@@ -1,13 +1,8 @@
 import React from 'react'
 import content from './_data.json'
+import PageLayout from '@/layouts/PageLayout'
 
 function ResearchComponent() {
-  const renderHeader = () => (
-    <div className='h-72 w-full bg-research-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
-      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-5 lg:px-72 py-6'>Research</h1>
-    </div>
-  )
-
   const renderLinksInParagraph = (paragraph, project_index) => {
     if (!paragraph.includes('%%')) return paragraph
 
@@ -38,8 +33,8 @@ function ResearchComponent() {
     </>
   )
 
-  const renderContent = () => (
-    <div className='lg:px-80 md:px-16 px-10 py-10 font-serif text-center'>
+  const renderPageContent = () => (
+    <>
       <p className='text-xl text-red-800 font-bold'>{content.main_headline}</p>
       {content.projects.map((project, project_index) => (
         <div key={project_index} className='pt-10 pd-5'>
@@ -55,14 +50,13 @@ function ResearchComponent() {
         </div>
       ))}
       {renderFunding()}
-    </div>
+    </>
   )
 
   return (
-    <div>
-      {renderHeader()}
-      {renderContent()}
-    </div>
+    <PageLayout backgroundImageExtension='research' pageHeading='Research'>
+      {renderPageContent()}
+    </PageLayout>
   )
 }
 

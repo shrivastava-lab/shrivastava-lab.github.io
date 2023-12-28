@@ -1,13 +1,8 @@
 import React from 'react'
 import content from './_data.json'
+import PageLayout from '@/layouts/PageLayout'
 
 function NewsComponent() {
-  const renderHeader = () => (
-    <div className='h-72 w-full bg-news-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
-      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-5 lg:px-72 py-6'>News</h1>
-    </div>
-  )
-
   const renderLinksInContext = (context, main_index) => {
     if (!context.includes('%%')) return context
 
@@ -25,22 +20,18 @@ function NewsComponent() {
     })
   }
 
-  const renderContent = () => (
-    <div className='lg:px-80 md:px-12 px-6 py-10 font-serif'>
-      {content.map((item, index) => (
-        <div key={index} className='flex flex-row my-4'>
-          <p className='text-base text-custom-red mr-5'>{item.date}</p>
-          <p className='text-base'>{renderLinksInContext(item.context, index)}</p>
-        </div>
-      ))}
-    </div>
-  )
+  const renderPageContent = () =>
+    content.map((item, index) => (
+      <div key={index} className='flex flex-row my-4'>
+        <p className='text-base text-custom-red mr-5'>{item.date}</p>
+        <p className='text-base text-left'>{renderLinksInContext(item.context, index)}</p>
+      </div>
+    ))
 
   return (
-    <div>
-      {renderHeader()}
-      {renderContent()}
-    </div>
+    <PageLayout backgroundImageExtension='news' pageHeading='News'>
+      {renderPageContent()}
+    </PageLayout>
   )
 }
 
