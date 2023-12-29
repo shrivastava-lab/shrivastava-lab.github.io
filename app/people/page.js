@@ -6,8 +6,9 @@ import Link from 'next/link'
 
 function PeopleComponent() {
   const renderHeader = () => (
-    <div className='h-72 w-full bg-people-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
-      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-5 lg:px-72 py-6'>People</h1>
+    <div className='h-72 w-full relative -z-10'>
+      <div className='h-full w-full bg-people-hero bg-local bg-no-repeat bg-cover bg-center brightness-50' />
+      <h1 className='text-7xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-serif text-white absolute'>People</h1>
     </div>
   )
 

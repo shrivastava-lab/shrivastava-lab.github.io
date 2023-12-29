@@ -3,8 +3,9 @@ import content from './_data.json'
 
 function BlogComponent() {
   const renderHeader = () => (
-    <div className='h-72 w-full bg-blog-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
-      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-5 lg:px-72 py-6'>Blog</h1>
+    <div className='h-72 w-full relative -z-10'>
+      <div className='h-full w-full bg-blog-hero bg-local bg-no-repeat bg-cover bg-center brightness-50' />
+      <h1 className='text-7xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-serif text-white absolute'>Blog</h1>
     </div>
   )
 
@@ -39,8 +40,7 @@ function BlogComponent() {
   const renderContent = () => (
     <div className='lg:px-80 md:px-16 px-8 py-10 font-serif'>
       <p className='my-5'>
-        This section contains blog posts that we think might be informative for scientists and science enthusiasts
-        around the world.
+        This section contains blog posts that we think might be informative for scientists and science enthusiasts around the world.
       </p>
       {content.map((item, index) => (
         <div key={index} className='flex flex-col my-8'>

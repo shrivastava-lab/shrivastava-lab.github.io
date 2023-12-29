@@ -2,8 +2,9 @@ import React from 'react'
 
 function JoinUsComponent() {
   const renderHeader = () => (
-    <div className='h-72 w-full bg-joinus-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
-      <h1 className='lg:text-7xl text-5xl font-serif text-white bg-gray-400/50 rounded px-5 lg:px-72 py-6'>Join Us</h1>
+    <div className='h-72 w-full relative -z-10'>
+      <div className='h-full w-full bg-joinus-hero bg-local bg-no-repeat bg-cover bg-center brightness-50' />
+      <h1 className='text-7xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-serif text-white absolute'>Join Us</h1>
     </div>
   )
 
