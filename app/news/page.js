@@ -5,7 +5,7 @@ function NewsComponent() {
   const renderHeader = () => (
     <div className='h-72 w-full relative -z-10'>
       <div className='h-full w-full bg-news-hero bg-local bg-no-repeat bg-cover bg-center brightness-50' />
-      <h1 className='text-7xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-serif text-white absolute'>News</h1>
+      <h1 className='text-5xl lg:text-7xl  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-serif text-white absolute'>News</h1>
     </div>
   )
 

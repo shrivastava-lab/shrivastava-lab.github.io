@@ -1,18 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ['./pages/**/*.{js,ts,jsx,tsx,mdx}', './components/**/*.{js,ts,jsx,tsx,mdx}', './app/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
-      colors:{
-        'custom-red': '#980000',
+      colors: {
+        'custom-red': '#980000'
       },
       fontFamily: {
         // 'serif': ['Lora', 'serif']
-        'serif': ['EB Garamond', 'serif']
+        serif: ["'Roboto Serif'", 'serif']
       },
       backgroundImage: {
         'research-hero': "url('/images/Spatial Organization of the Microbiome.jpeg')",
@@ -21,9 +17,9 @@ module.exports = {
         'software-hero': "url('/images/softwares.jpeg')",
         'news-hero': "url('/images/news.jpeg')",
         'blog-hero': "url('/images/blog.jpeg')",
-        'joinus-hero': "url('/images/joinus.jpeg')",
-      },
-    },
+        'joinus-hero': "url('/images/joinus.jpeg')"
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }

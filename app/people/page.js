@@ -8,7 +8,7 @@ function PeopleComponent() {
   const renderHeader = () => (
     <div className='h-72 w-full relative -z-10'>
       <div className='h-full w-full bg-people-hero bg-local bg-no-repeat bg-cover bg-center brightness-50' />
-      <h1 className='text-7xl top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-serif text-white absolute'>People</h1>
+      <h1 className='text-5xl lg:text-7xl  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-serif text-white absolute'>People</h1>
     </div>
   )
 
@@ -18,7 +18,7 @@ function PeopleComponent() {
       <div className='flex flex-col md:flex-row lg:flex-row items-base justify-normal flex-wrap'>
         {content.students[studentType].map((student, index) => (
           <section key={index} className='basis-1/3 py-5 md:px-5 lg:p-5'>
-            <Image src={student.photo} alt={student.name} className='w-96 h-96 md:h-72 md:w-72 lg:h-96 lg:w-96 py-5' />
+            <Image src={student.photo} alt={student.name} className='w-96 h-auto md:h-auto md:w-72 lg:h-auto lg:w-96 py-5' />
             <p className='text-red-800 text-lg py-2'>{student.name}</p>
             <p className='px-1'>{student.about}</p>
           </section>
