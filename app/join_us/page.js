@@ -14,7 +14,7 @@ function JoinUsComponent() {
         We are always looking for motivated Postdocs, PhD students, and Undergraduates researchers.
       </p>
       <p className='my-5 text-center'>
-        There are two banners posted on our lab wall (1) We don't do average, we do awesome (2) Imagination is more
+        There are two banners posted on our lab wall (1) We don&apos;t do average, we do awesome (2) Imagination is more
         important than knowledge.
       </p>
       <p className='my-5 text-center'>
