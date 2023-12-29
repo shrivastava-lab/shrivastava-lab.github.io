@@ -1,18 +1,23 @@
 import React from 'react'
 import content from './_data.json'
-import PageLayout from '@/layouts/PageLayout'
 
 function PublicationComponent() {
-  const renderPageContent = () => (
-    <>
-      <p className='text-xl text-custom-red my-5 text-left'>
+  const renderHeader = () => (
+    <div className='h-72 w-full bg-publication-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
+      <h1 className='text-6xl lg:text-7xl font-serif text-white bg-gray-400/50 rounded px-5 lg:px-72 py-6'>Publications</h1>
+    </div>
+  )
+
+  const renderContent = () => (
+    <div className='lg:px-80 md:px-12 px-6 py-10 font-serif'>
+      <p className='text-xl text-custom-red my-5'>
         Google Scholar{' '}
         <a href='https://scholar.google.com/citations?user=0nHQjzwAAAAJ&hl=en' className='underline font-bold'>
           link
         </a>
       </p>
       {content.map((item, index) => (
-        <div key={index} className='text-left'>
+        <div key={index}>
           <h1 className='text-xl font-sans text-custom-red'>{item.year}</h1>
           <div className='pl-16 py-4'>
             {item.publications.map((publication, index) => (
@@ -25,13 +30,14 @@ function PublicationComponent() {
           </div>
         </div>
       ))}
-    </>
+    </div>
   )
 
   return (
-    <PageLayout backgroundImageExtension='publication' pageHeading='Publication'>
-      {renderPageContent()}
-    </PageLayout>
+    <div>
+      {renderHeader()}
+      {renderContent()}
+    </div>
   )
 }
 

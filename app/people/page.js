@@ -3,9 +3,13 @@ import React from 'react'
 import Image from 'next/image'
 import content from './_data'
 import Link from 'next/link'
-import PageLayout from '@/layouts/PageLayout'
 
 function PeopleComponent() {
+  const renderHeader = () => (
+    <div className='h-72 w-full bg-people-hero bg-local bg-no-repeat bg-cover bg-center flex items-center justify-center'>
+      <h1 className='text-7xl font-serif text-white bg-gray-400/50 rounded px-5 lg:px-72 py-6'>People</h1>
+    </div>
+  )
 
   const renderStudentData = (studentType = 'Postdoctoral Fellows') => (
     <div className='mt-10'>
@@ -22,8 +26,8 @@ function PeopleComponent() {
     </div>
   )
 
-  const renderPageContent = () => (
-    <>
+  const renderContent = () => (
+    <div className='lg:px-80 md:px-12 px-8 py-10 font-serif text-center '>
       <div className='flex flex-col md:flex-row lg:flex-row items-center justify-between'>
         <section className='basis-1/3'>
           <Image src={content.profile_picture} alt='Abhishek sh' className='w-full py-5' />
@@ -51,13 +55,14 @@ function PeopleComponent() {
       {renderStudentData('PhD students')}
       {renderStudentData('Undergraduate Researchers')}
       {renderStudentData('Lab alumni')}
-    </>
+    </div>
   )
 
   return (
-    <PageLayout backgroundImageExtension='people' pageHeading='People'>
-      {renderPageContent()}
-    </PageLayout>
+    <div>
+      {renderHeader()}
+      {renderContent()}
+    </div>
   )
 }
 
