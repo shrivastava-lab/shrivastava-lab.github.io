@@ -84,7 +84,7 @@ const Navbar = () => {
         </Menu>
       </>
     )
-  else if (size.width < 1024)
+  else if (size.width < 1280)
     return (
       <nav className='w-full bg-custom-red flex flex-row justify-between align-middle p-5 text-white font-serif fixed top-0 drop-shadow'>
         <section className='basis-1/6'>

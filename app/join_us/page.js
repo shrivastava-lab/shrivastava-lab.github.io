@@ -9,7 +9,7 @@ function JoinUsComponent() {
   )
 
   const renderContent = () => (
-    <div className='lg:px-80 px-7 py-10 font-serif h-[28rem]'>
+    <div className='xl:px-80 px-7 py-10 font-serif h-[28rem]'>
       <p className='my-5 text-center'>
         We are always looking for motivated Postdocs, PhD students, and Undergraduates researchers.
       </p>

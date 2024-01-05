@@ -40,7 +40,7 @@ function ResearchComponent() {
   )
 
   const renderContent = () => (
-    <div className='lg:px-80 md:px-16 px-10 py-10 font-serif text-center'>
+    <div className='xl:px-80 md:px-16 px-10 py-10 font-serif text-center'>
       <p className='text-xl text-red-800 font-bold'>{content.main_headline}</p>
       {content.projects.map((project, project_index) => (
         <div key={project_index} className='pt-10 pd-5'>

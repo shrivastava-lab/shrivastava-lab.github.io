@@ -10,7 +10,7 @@ function PublicationComponent() {
   )
 
   const renderContent = () => (
-    <div className='lg:px-80 md:px-12 px-6 py-10 font-serif'>
+    <div className='xl:px-80 md:px-12 px-6 py-10 font-serif'>
       <p className='text-xl text-custom-red my-5'>
         Google Scholar{' '}
         <a href='https://scholar.google.com/citations?user=0nHQjzwAAAAJ&hl=en' className='underline font-bold'>
