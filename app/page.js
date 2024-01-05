@@ -19,21 +19,27 @@ export default function Home() {
 
   const renderCarousal = () => (
     <Carousel showArrows autoPlay infiniteLoop showStatus={false} showThumbs={false} autoFocus className='w-2/3 my-20'>
-      <div>
-        <Image src={The_team} alt='The Team' className='object-cover h-96 w-full' priority/>
-        <p className='legend'>The Team</p>
+      <div className='relative'>
+        <p className='absolute top-8 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-slate-500/75 rounded px-5 py-2 text-lg text-white'>The Team</p>
+        <Image src={The_team} alt='The Team' className='object-cover h-96 w-full' priority />
       </div>
-      <div>
+      <div className='relative'>
+        <p className='absolute top-8 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-slate-500/75 rounded px-5 py-2 text-lg text-white'>
+          A Mobile Bacterial Adhesin
+        </p>
         <Image src={mobile_bacteria} alt='mobile_bacteria' className='object-cover h-96 w-full' />
-        <p className='legend'>A Mobile Bacterial Adhesin</p>
       </div>
-      <div>
+      <div className='relative'>
+        <p className='absolute top-8 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-slate-500/75 rounded px-5 py-2 text-lg text-white'>
+          Spatial Organization of the Microbiome
+        </p>
         <Image src={spatial_organisation} alt='spatial_organisation' className='object-cover h-96 w-full' />
-        <p className='legend'>Spatial Organization of the Microbiome</p>
       </div>
-      <div>
+      <div className='relative'>
+        <p className='absolute top-8 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-slate-500/75 rounded px-5 py-2 text-lg text-white'>
+          Swarm Behavior of Microbes
+        </p>
         <Image src={swarm_behavior} alt='swarm_behavior' className='object-cover h-96 w-full' />
-        <p className='legend'>Swarm Behavior of Microbes</p>
       </div>
     </Carousel>
   )
