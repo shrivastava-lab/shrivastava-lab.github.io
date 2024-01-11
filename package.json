@@ -13,7 +13,8 @@
     "react": "^18",
     "react-burger-menu": "^3.0.9",
     "react-dom": "^18",
-    "react-responsive-carousel": "^3.2.23"
+    "react-responsive-carousel": "^3.2.23",
+    "sharp": "^0.33.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
