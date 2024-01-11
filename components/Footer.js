@@ -15,14 +15,14 @@ const Footer = () => {
         <section className='flex flex-col justify-center text-center lg:text-left'>
           {/* Faculty Corner */}
           <h2 className='underline'>Faculty Corner:</h2>
-          <Link className='text-lg hover:text-blue-800' href='https://search.asu.edu/profile/3521802'>
+          <Link className='text-sm hover:text-blue-800' href='https://search.asu.edu/profile/3521802'>
             Dr. Abhishek Shrivastava
           </Link>
-          <Link className='text-base hover:text-blue-800' href='https://sols.asu.edu/people/faculty'>
+          <Link className='text-sm hover:text-blue-800' href='https://sols.asu.edu/people/faculty'>
             School of Life Sciences(sols.asu.edu)
           </Link>
           <Link
-            className='text-base hover:text-blue-800'
+            className='text-sm hover:text-blue-800'
             href='https://biodesign.asu.edu/our-experts/profile/ashriv18/'
           >
             Biodesign Institute(biodesign.asu.edu)
