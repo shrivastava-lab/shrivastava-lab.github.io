@@ -40,7 +40,7 @@ const content = {
         photo: require('../../public/images/Samyabrata Sen.png')
       },
       {
-        name: 'Sofia Rocha',
+        name: 'Sofia Rocha 2nd year PhD',
         about:
           'I am a 2nd year PhD student in Microbiology. For my undergraduate, I studied at ASU with a major in Microbiology with a minor in Spanish. I joined the Shrivastava lab as an undergraduate researcher focusing on the role of motility within the human oral microbiome. My current research focuses on the Type 9 Secretion System and the human microbiome and how they influence each other. I am fascinated by the unseen world and love to look at the world at the microscopic level. My hobbies include hiking and traveling with my dogs and family.',
         photo: require('../../public/images/Sofia Rocha.png')
