@@ -12,18 +12,6 @@ const content = {
         about:
           'I am passionate about understanding how bacteria regulate complex physiological traits, especially ones that determine association with hosts. My current research includes understanding the regulation and biophysics of T9SS-mediated gliding motility. I use tools from ranging from bacterial genetics, protein biochemistry, microscopy and computational biology. Outside the lab, I like capturing stories on CMOS sensors.',
         photo: require('../../public/images/Jitendra Gosai.png')
-      },
-      {
-        name: 'Abhishek Trivedi, PhD',
-        about:
-          'I am interested in learning more about the fundamentals of bacterial locomotion and deciphering the mechanism by which the type 9 secretion system controls gliding. I have a PhD in microbiology, and I am currently broadening my expertise by learning biophysics and computational biology. I am interested in doing fundamental microbiology research in future and I plan to stay in academics. Beside academics, I am interested reading literature, playing table tennis, running and cricket. ',
-        photo: require('../../public/images/Abhishek Trivedi.png')
-      },
-      {
-        name: 'Amanda Zdimal, PhD',
-        about:
-          'I am curious about the interactions between bacterial cells, their products, and the underlying mechanisms that influence human health. I aim to characterize spatial and temporal development of polymicrobial communities present in human mouth and gut. Since the oral and gut microbiomes have been implicated in numerous diseases, information regarding the microbial profile and development of community structure may provide new insights into the mechanisms which dictate healthy and disease states in humans.',
-        photo: require('../../public/images/Amanda Zdimal.png')
       }
     ],
     'PhD students': [
@@ -79,6 +67,17 @@ const content = {
       }
     ],
     'Lab alumni': [
+      
+      {
+        name: 'Abhishek Trivedi, PhD',
+        about: '',
+        photo: require('../../public/images/Abhishek Trivedi.png')
+      },
+      {
+        name: 'Amanda Zdimal, PhD',
+        about: '',
+        photo: require('../../public/images/Amanda Zdimal.png')
+      },
       {
         name: 'Maxim Averbukh',
         about: '',
