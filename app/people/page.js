@@ -11,11 +11,12 @@ function PeopleComponent() {
       <h1 className='text-5xl lg:text-7xl  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-serif text-white absolute'>People</h1>
     </div>
   )
-
-  const renderStudentData = (studentType = 'Postdoctoral Fellows') => (
+  const renderStudentData = (studentType = 'Postdoctoral Fellows') => {
+  const isSingle = content.students[studentType].length === 1
+  return (
     <div className='mt-10'>
       <p className='text-red-800 font-bold text-xl py-5 underline'>{studentType}</p>
-      <div className='flex flex-col md:flex-row xl:flex-row items-base justify-normal flex-wrap'>
+      <div className={`flex flex-col md:flex-row xl:flex-row items-base flex-wrap ${isSingle ? 'justify-center' : 'justify-normal'}`}>
         {content.students[studentType].map((student, index) => (
           <section key={index} className='basis-1/3 py-5 md:px-5 xl:p-5'>
             <Image src={student.photo} alt={student.name} className='w-96 h-auto md:h-auto md:w-72 xl:h-auto xl:w-96 py-5' />
@@ -26,6 +27,7 @@ function PeopleComponent() {
       </div>
     </div>
   )
+}
 
   const renderContent = () => (
     <div className='xl:px-80 md:px-12 px-8 py-10 font-serif text-center '>
