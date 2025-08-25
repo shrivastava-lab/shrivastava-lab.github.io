@@ -48,12 +48,6 @@ const content = {
     ],
     'Undergraduate Researchers': [
       {
-        name: 'Arad Arasteh',
-        about:
-          'I am currently a Senior majoring in Biological Sciences (Genetics, Cell, and Developmental Biology). I plan to further my education and pursue a career in medicine. My interests are learning more about and further understanding biofilm formation and human microbiomes. I enjoy watching TV shows and playing soccer during my downtime.',
-        photo: require('../../public/images/Arad Arasteh.png')
-      },
-      {
         name: 'Taryn Collins',
         about:
           'I am studying Molecular Biosciences and Biotechnology. I want to understand life at a molecular level and explain natural phenomena with their molecular functions. I am interested in the genetic role in bacterial motility, especially as seen in biofilms. Outside of school, I enjoy reading, swimming (not at the same time), and playing with my cats.',
@@ -67,7 +61,6 @@ const content = {
       }
     ],
     'Lab alumni': [
-      
       {
         name: 'Abhishek Trivedi, PhD',
         about: '',
@@ -97,7 +90,13 @@ const content = {
         name: 'Claudia Brouwer',
         about: '',
         photo: require('../../public/images/Claudia Brouwer.png')
-      }
+      },
+      {
+        name: 'Arad Arasteh',
+        about:
+          '',
+        photo: require('../../public/images/Arad Arasteh.png')
+      },
     ]
   }
 }
