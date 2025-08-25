@@ -38,12 +38,6 @@ const content = {
         about:
           "I am a second-year Ph.D. student in Dr. Shrivastava's and Dr. Shah's labs, researching gut microbial enzymes and their metabolites influence on human physiology. Currently, we're focused on in-vitro characterization of enzymes from gut Bacteroides. In the future, I plan to explore the genetic manipulation of Bacteroides to study their potential links to neurodegenerative diseases. Outside of research, I enjoy cooking, painting, and drawing.",
         photo: require('../../public/images/Pavani Dadi.png')
-      },
-      {
-        name: 'Aishwarya Patel',
-        about:
-          'I am a first-year PhD student working with Dr. Shrivastava and Dr. Shah. I am deeply interested in studying the human gut microbiota and observing their role in the gut-brain axis of the host. Outside the lab, I enjoy reading, hiking, and painting.',
-        photo: require('../../public/images/Aishwarya Patel.png')
       }
     ],
     'Undergraduate Researchers': [
