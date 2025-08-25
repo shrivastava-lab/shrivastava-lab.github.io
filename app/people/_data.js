@@ -47,18 +47,7 @@ const content = {
           'I am currently studying Biomedical Sciences with a Certificate in Computational Life Sciences. I plan to pursue further education in medicine while continuing my research career, with the goal of advancing biomedical science. My interests lie in exploring the ways microbes affect human health and in investigating the processes governing bacterial movement across surfaces. I enjoy working out in the gym, spending time with friends and family, cooking, and listening to music.',
         photo: require('../../public/images/Ravi Manchikalapati.png')
       },
-      {
-        name: 'Taryn Collins',
-        about:
-          'I am studying Molecular Biosciences and Biotechnology. I want to understand life at a molecular level and explain natural phenomena with their molecular functions. I am interested in the genetic role in bacterial motility, especially as seen in biofilms. Outside of school, I enjoy reading, swimming (not at the same time), and playing with my cats.',
-        photo: require('../../public/images/Taryn Collins.png')
-      },
-      {
-        name: 'Riya Garg',
-        about:
-          'I am studying Biomedical Sciences with a minor in Spanish. I am interested in learning about how microbial cells influence the overall health of humans. In the future, I hope to become a doctor and explore different parts of the world. In my free time, I enjoy hiking, dancing, spending time with friends and family, and listening to music.',
-        photo: require('../../public/images/Riya Garg.png')
-      }
+      
     ],
     'Lab alumni': [
       {
@@ -70,6 +59,24 @@ const content = {
         name: 'Amanda Zdimal, PhD',
         about: '',
         photo: require('../../public/images/Amanda Zdimal.png')
+      },
+      {
+        name: 'Taryn Collins',
+        about:
+          '',
+        photo: require('../../public/images/Taryn Collins.png')
+      },
+      {
+        name: 'Riya Garg',
+        about:
+          '',
+        photo: require('../../public/images/Riya Garg.png')
+      },
+      {
+        name: 'Arad Arasteh',
+        about:
+          '',
+        photo: require('../../public/images/Arad Arasteh.png')
       },
       {
         name: 'Maxim Averbukh',
@@ -90,13 +97,8 @@ const content = {
         name: 'Claudia Brouwer',
         about: '',
         photo: require('../../public/images/Claudia Brouwer.png')
-      },
-      {
-        name: 'Arad Arasteh',
-        about:
-          '',
-        photo: require('../../public/images/Arad Arasteh.png')
-      },
+      }
+      
     ]
   }
 }
