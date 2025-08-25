@@ -16,10 +16,10 @@ const content = {
     ],
     'PhD students': [
       {
-        name: 'Emma Henderson',
+        name: 'Em Henderson',
         about:
           'The wide array of microbial communities and the level of complexity to which such small organisms can achieve has always been a fascinating topic to me. During my undergraduate research career at Illinois State University, I focused on the metabolism taking place within Staphylococcal species. I have now transitioned into studying bacterial secretion system machinery, specifically the type  9 secretion system, that certain species utilize in order to carry out functions, like gliding motility. In my free time I enjoy doing puzzles, golfing, and enjoying the Arizona sun!',
-        photo: require('../../public/images/Emma Henderson.png')
+        photo: require('../../public/images/Em Henderson.png')
       },
       {
         name: 'Samyabrata Sen',
