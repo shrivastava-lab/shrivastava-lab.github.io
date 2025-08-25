@@ -48,6 +48,12 @@ const content = {
     ],
     'Undergraduate Researchers': [
       {
+        name: 'Ravi Manchikalapati',
+        about:
+          'I am currently studying Biomedical Sciences with a Certificate in Computational Life Sciences. I plan to pursue further education in medicine while continuing my research career, with the goal of advancing biomedical science. My interests lie in exploring the ways microbes affect human health and in investigating the processes governing bacterial movement across surfaces. I enjoy working out in the gym, spending time with friends and family, cooking, and listening to music.',
+        photo: require('../../public/images/Ravi Manchikalapati.png')
+      },
+      {
         name: 'Taryn Collins',
         about:
           'I am studying Molecular Biosciences and Biotechnology. I want to understand life at a molecular level and explain natural phenomena with their molecular functions. I am interested in the genetic role in bacterial motility, especially as seen in biofilms. Outside of school, I enjoy reading, swimming (not at the same time), and playing with my cats.',
