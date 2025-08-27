@@ -12,7 +12,8 @@ function PeopleComponent() {
     </div>
   )
   const renderStudentData = (studentType = 'Postdoctoral Fellows') => {
-  const isSingle = content.students[studentType].length === 1
+  const students = content.students[studentType] || []   
+  const isSingle = students.length === 1
   return (
     <div className='mt-10'>
       <p className='text-red-800 font-bold text-xl py-5 underline'>{studentType}</p>
@@ -54,9 +55,9 @@ function PeopleComponent() {
           </div>
         </section>
       </div>
-      {renderStudentData('Postdoctoral Fellows')}
-      {renderStudentData('PhD students')}
-      {renderStudentData('Undergraduate Researchers')}
+      {/*{renderStudentData('Lab Members')}*/}
+      {renderStudentData('Lab Members')}
+      {/*{renderStudentData('Undergraduate Researchers')}*/}
       {renderStudentData('Lab alumni')}
     </div>
   )
