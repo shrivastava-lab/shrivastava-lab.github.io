@@ -1,11 +1,49 @@
 [
   {
-    "year": "2023",
+    "year": "2025",
     "publications": [
       {
-        "index": 14,
-        "journal": "ST Rocha, DD Shah, Q Zhu, A Shrivastava. The prevalence of motility within the human oral microbiota. bioRxiv, 2023.07. 17.549387"
+        "index": 20,
+        "journal": "AM Migueles-Lozano, M Asp, ST Rocha, J Li, G Fanouraki, AD Sun, L Zhang, JR Waldbauer, J Hong, A Shrivastava, J Yan, S Mukherjee. Regulatory plasticity and metabolic trade-offs drive adaptive evolution of alternative flagellar configurations in Pseudomonas aeruginosa. bioRxiv, 2025.07.29.667523"
       },
+      {
+        "index": 19,
+        "journal": "A Trivedi, JA Miratsky, EC Henderson, A Singharoy, A Shrivastava. A molecular conveyor belt-associated protein controls the rotational direction of the bacterial type 9 secretion system. mBio, e01125-25"
+      },
+      {
+        "index": 18,
+        "journal": "S Sen, I Vairagare, J Gosai, A Shrivastava. RABiTPy: an open-source Python software for rapid, AI-powered bacterial tracking and analysis. BMC Bioinformatics, 127"
+      },
+
+      {
+        "index": 17,
+        "journal": "P Dadi, CW Pauling, A Shrivastava, DD Shah. Synthesis of versatile neuromodulatory molecules by a gut microbial glutamate decarboxylase. iScience, 28(4)"
+      },
+      {
+        "index": 16,
+        "journal": "ST Rocha, DD Shah, Q Zhu, A Shrivastava. The prevalence of motility-related genes within the human oral microbiota. Microbiology Spectrum, e01264-24"
+      }, 
+      {
+        "index": 15,
+        "journal": "AM Zdimal, G Di Dio, W Liu, T Aftab, T Collins, R Colin, A Shrivastava. Swarming bacteria exhibit developmental phase transitions to establish scattered colonies in new regions. The ISME Journal, wrae263"
+      }
+    ]
+  },
+  
+  {
+    "year": "2024",
+    "publications": [
+    
+      {
+        "index": 14,
+        "journal": "ST Rocha, DD Shah, A Shrivastava. Ecological, beneficial, and pathogenic functions of the Type 9 Secretion System. Microbial Biotechnology, e14516"
+      }
+    ]
+  },
+  {
+    "year": "2023",
+    "publications": [
+    
       {
         "index": 13,
         "journal": "NK Ratheesh, AM Zdimal, CA Calderon, A Shrivastava. Bacterial swarm-mediated phage transportation disrupts a biofilm inherently protected from phage penetration. Microbiology Spectrum, e00937-23"

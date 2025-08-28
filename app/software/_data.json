@@ -1,4 +1,29 @@
 [
+  
+  {
+    "title": "RABiTPy (Python)",
+    "excerpt": "Python package for bacterial tracking that combines traditional and AI based segmentation in a Jupyter Notebook interface. It handles large datasets efficiently and runs on GPU, CPU, or cloud.",
+    "link": {
+      "text": "indraneel207/RABiTPy",
+      "url": "https://github.com/indraneel207/RABiTPy"
+    }
+  },
+  {
+    "title": "CellSize (Python)",
+    "excerpt": "Python tool to read, filter, label, and measure bacterial cells from microscopic images, with batch processing of thousands of images and quick plotting of key cell attributes.",
+    "link": {
+      "text": "strocha1/CellSize",
+      "url": "https://github.com/strocha1/CellSize"
+    }
+  },
+  {
+    "title": "HOMDscrape (Python)",
+    "excerpt": "Python tool in a Jupyter Notebook that automates interaction with the Human Oral Microbiome Database eHOMD to extract species names and amino acid sequences from BLAST results or XML and convert them into FASTA for downstream analyses.",
+    "link": {
+      "text": "strocha1/HOMDscrape",
+      "url": "https://github.com/strocha1/HOMDscrape"
+    }
+  },
   {
     "title": "Particle tracker (MATLAB)",
     "excerpt": "This script tracks the centroid of a moving bacterial cell. At the end of the code it plots the centroids from consecutive frames.",

@@ -58,6 +58,11 @@ const content = {
         photo: require('../../public/images/Abhishek Trivedi.png')
       },
       {
+        name: 'Indraneel Vairagare',
+        about: '',
+        photo: require('../../public/images/Indraneel Vairagare.png')
+      },
+      {
         name: 'Amanda Zdimal, PhD',
         about: '',
         photo: require('../../public/images/Amanda Zdimal.png')
