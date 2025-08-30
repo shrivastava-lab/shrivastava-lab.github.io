@@ -44,7 +44,7 @@ const content = {
         photo: require('../../public/images/Armon Malaekeh.png')
       },
       {
-        name: 'Nishoni huber (PhD student)',
+        name: 'Nishoni Huber (PhD student)',
         about:
           'Microbes may be small, but their impact on our lives is anything but! I’m a first-year Microbiology PhD student, currently rotating in Dr. Shrivastava’s lab. My research interests center on how microbial communities shape health and disease, and the surprising strategies they use to influence their environments. Outside the lab, you’ll usually find me hiking, swimming, traveling, or catching live music.',
         photo: require('../../public/images/Nishoni Huber.png')
