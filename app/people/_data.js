@@ -44,6 +44,12 @@ const content = {
         photo: require('../../public/images/Armon Malaekeh.png')
       },
       {
+        name: 'Nishoni huber (PhD student)',
+        about:
+          'Microbes may be small, but their impact on our lives is anything but! I’m a first-year Microbiology PhD student, currently rotating in Dr. Shrivastava’s lab. My research interests center on how microbial communities shape health and disease, and the surprising strategies they use to influence their environments. Outside the lab, you’ll usually find me hiking, swimming, traveling, or catching live music.',
+        photo: require('../../public/images/Nishoni Huber.png')
+      },
+      {
         name: 'Ravi Manchikalapati (Undergraduate Researcher)',
         about:
           'I am currently studying Biomedical Sciences with a Certificate in Computational Life Sciences. I plan to pursue further education in medicine while continuing my research career, with the goal of advancing biomedical science. My interests lie in exploring the ways microbes affect human health and in investigating the processes governing bacterial movement across surfaces. I enjoy working out in the gym, spending time with friends and family, cooking, and listening to music.',
