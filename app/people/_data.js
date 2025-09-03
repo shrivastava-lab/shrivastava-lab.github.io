@@ -55,6 +55,12 @@ const content = {
           'I am currently studying Biomedical Sciences with a Certificate in Computational Life Sciences. I plan to pursue further education in medicine while continuing my research career, with the goal of advancing biomedical science. My interests lie in exploring the ways microbes affect human health and in investigating the processes governing bacterial movement across surfaces. I enjoy working out in the gym, spending time with friends and family, cooking, and listening to music.',
         photo: require('../../public/images/Ravi Manchikalapati.png')
       },
+      {
+        name: 'Saniya Bhatnagar (Undergraduate Researcher)',
+        about:
+          'I am currently pursuing my Bachelors of Science degree in Computer Science with a concentration in Software Engineering. I’ve always been interested in biology, especially microbiology and am especially interested in the intersection of computer science and biology with a focus on computational biology. Moving forward, I would like to pursue an education and career in bioinformatics and pursue research that combines computation and microbiology and genetics. In my free time, I enjoy listening to music, crocheting, and spending time with friends and family.',
+        photo: require('../../public/images/Saniya Bhatnagar.png')
+      },
       
     ],
     'Lab alumni': [
