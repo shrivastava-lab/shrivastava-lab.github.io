@@ -38,24 +38,6 @@ const content = {
         photo: require('../../public/images/Samyabrata Sen.png')
       },
       {
-        name: 'Armon Malaekeh (PhD student)',
-        about:
-          'I am a 1st-year Biology PhD student in the Shrivastava Lab and have received my B.S. and M.S. in Biology at ASU. I am interested in bacterial motility in relation to microbiome community development. My current research outlook is based on the collective behavior of Flavobacterium Johnsonaiae and their unique zorbing properties. Understanding these dynamics can beneficially impact real-world applications such as microbiome health and agriculture, infection control, and biomaterials. Outside of the lab I enjoy spending time with my cat Bloo, catching a good happy hour, and doing outside activities with friends.',
-        photo: require('../../public/images/Armon Malaekeh.png')
-      },
-      {
-        name: 'Nishoni Huber (PhD student)',
-        about:
-          'Microbes may be small, but their impact on our lives is anything but! I’m a first-year Microbiology PhD student, currently rotating in Dr. Shrivastava’s lab. My research interests center on how microbial communities shape health and disease, and the surprising strategies they use to influence their environments. Outside the lab, you’ll usually find me hiking, swimming, traveling, or catching live music.',
-        photo: require('../../public/images/Nishoni Huber.png')
-      },
-      {
-        name: 'Dhrithi Bhat (Graduate student)',
-        about:
-          'I am currently pursuing a Master’s degree in Computational Life Sciences, building on my undergraduate background in Biotechnology. My research primarily lies in the field of Computational Biology, where I explore biological systems through data-driven and model-based approaches. I have previously worked on Molecular Docking and Dynamics studies, focusing on understanding disease mechanisms in Rheumatoid Arthritis and Alzheimer’s. At present, my research is centred on the computational study of bacterial cells. Beyond academics, I am a trained classical vocalist and have debuted as a playback singer. P.S. I can lose track of time in a library or a cozy café with a good book in hand!',
-        photo: require('../../public/images/Dhrithi Bhat.png')
-      },
-      {
         name: 'Ravi Manchikalapati (Undergraduate Researcher)',
         about:
           'I am currently studying Biomedical Sciences with a Certificate in Computational Life Sciences. I plan to pursue further education in medicine while continuing my research career, with the goal of advancing biomedical science. My interests lie in exploring the ways microbes affect human health and in investigating the processes governing bacterial movement across surfaces. I enjoy working out in the gym, spending time with friends and family, cooking, and listening to music.',
@@ -67,6 +49,27 @@ const content = {
           'I am currently pursuing my Bachelors of Science degree in Computer Science with a concentration in Software Engineering. I’ve always been interested in biology, especially microbiology and am especially interested in the intersection of computer science and biology with a focus on computational biology. Moving forward, I would like to pursue an education and career in bioinformatics and pursue research that combines computation and microbiology and genetics. In my free time, I enjoy listening to music, crocheting, and spending time with friends and family.',
         photo: require('../../public/images/Saniya Bhatnagar.png')
       },
+      {
+        name: 'Dhrithi Bhat (Graduate student)',
+        about:
+          'I am currently pursuing a Master’s degree in Computational Life Sciences, building on my undergraduate background in Biotechnology. My research primarily lies in the field of Computational Biology, where I explore biological systems through data-driven and model-based approaches. I have previously worked on Molecular Docking and Dynamics studies, focusing on understanding disease mechanisms in Rheumatoid Arthritis and Alzheimer’s. At present, my research is centred on the computational study of bacterial cells. Beyond academics, I am a trained classical vocalist and have debuted as a playback singer. P.S. I can lose track of time in a library or a cozy café with a good book in hand!',
+        photo: require('../../public/images/Dhrithi Bhat.png')
+      },
+      {
+        name: 'Armon Malaekeh (PhD student)',
+        about:
+          'I am a 1st-year Biology PhD student in the Shrivastava Lab and have received my B.S. and M.S. in Biology at ASU. I am interested in bacterial motility in relation to microbiome community development. My current research outlook is based on the collective behavior of Flavobacterium Johnsonaiae and their unique zorbing properties. Understanding these dynamics can beneficially impact real-world applications such as microbiome health and agriculture, infection control, and biomaterials. Outside of the lab I enjoy spending time with my cat Bloo, catching a good happy hour, and doing outside activities with friends.',
+        photo: require('../../public/images/Armon Malaekeh.png')
+      },
+      {
+        name: 'Nishoni Huber (PhD student)',
+        about:
+          'Microbes may be small, but their impact on our lives is anything but! I’m a first-year Microbiology PhD student, currently rotating in Dr. Shrivastava’s lab. My research interests center on how microbial communities shape health and disease, and the surprising strategies they use to influence their environments. Outside the lab, you’ll usually find me hiking, swimming, traveling, or catching live music.',
+        photo: require('../../public/images/Nishoni Huber.png')
+      },
+      
+      
+      
       
     ],
     'Lab alumni': [
