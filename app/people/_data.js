@@ -50,6 +50,12 @@ const content = {
         photo: require('../../public/images/Nishoni Huber.png')
       },
       {
+        name: 'Dhrithi Bhat (Graduate student)',
+        about:
+          'I am currently pursuing a Master’s degree in Computational Life Sciences, building on my undergraduate background in Biotechnology. My research primarily lies in the field of Computational Biology, where I explore biological systems through data-driven and model-based approaches. I have previously worked on Molecular Docking and Dynamics studies, focusing on understanding disease mechanisms in Rheumatoid Arthritis and Alzheimer’s. At present, my research is centred on the computational study of bacterial cells. Beyond academics, I am a trained classical vocalist and have debuted as a playback singer. P.S. I can lose track of time in a library or a cozy café with a good book in hand!',
+        photo: require('../../public/images/Dhrithi Bhat.png')
+      },
+      {
         name: 'Ravi Manchikalapati (Undergraduate Researcher)',
         about:
           'I am currently studying Biomedical Sciences with a Certificate in Computational Life Sciences. I plan to pursue further education in medicine while continuing my research career, with the goal of advancing biomedical science. My interests lie in exploring the ways microbes affect human health and in investigating the processes governing bacterial movement across surfaces. I enjoy working out in the gym, spending time with friends and family, cooking, and listening to music.',
