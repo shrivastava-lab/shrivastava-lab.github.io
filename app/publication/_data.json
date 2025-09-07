@@ -3,6 +3,10 @@
     "year": "2025",
     "publications": [
       {
+        "index": 21,
+        "journal": "TN Huynh, S Setayeshgar, A Shrivastava, J Engel. Forging new paths in bacterial motility and sensory transduction: highlights from BLAST XVIII. FEMS Microbiology Reviews. 2025. fuaf042."
+      },
+      {
         "index": 20,
         "journal": "AM Migueles-Lozano, M Asp, ST Rocha, J Li, G Fanouraki, AD Sun, L Zhang, JR Waldbauer, J Hong, A Shrivastava, J Yan, S Mukherjee. Regulatory plasticity and metabolic trade-offs drive adaptive evolution of alternative flagellar configurations in Pseudomonas aeruginosa. bioRxiv, 2025.07.29.667523"
       },
