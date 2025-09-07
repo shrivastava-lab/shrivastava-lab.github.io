@@ -37,24 +37,7 @@ const content = {
           'I am a 3rd year PhD student studying how the Type IX Secretion System (T9SS) powers both the gliding motility of Flavobacterium johnsoniae and shapes the microbiome’s response to diet. By linking microbial movement to community dynamics, my work aims to reveal how microscopic mechanisms influence health. Outside of research, I enjoy writing, soccer, playing FIFA on Xbox, and photographing the skies of Tempe.',
         photo: require('../../public/images/Samyabrata Sen.png')
       },
-      {
-        name: 'Ravi Manchikalapati (Undergraduate Researcher)',
-        about:
-          'I am currently studying Biomedical Sciences with a Certificate in Computational Life Sciences. I plan to pursue further education in medicine while continuing my research career, with the goal of advancing biomedical science. My interests lie in exploring the ways microbes affect human health and in investigating the processes governing bacterial movement across surfaces. I enjoy working out in the gym, spending time with friends and family, cooking, and listening to music.',
-        photo: require('../../public/images/Ravi Manchikalapati.png')
-      },
-      {
-        name: 'Saniya Bhatnagar (Undergraduate Researcher)',
-        about:
-          'I am currently pursuing my Bachelors of Science degree in Computer Science with a concentration in Software Engineering. I’ve always been interested in biology, especially microbiology and am especially interested in the intersection of computer science and biology with a focus on computational biology. Moving forward, I would like to pursue an education and career in bioinformatics and pursue research that combines computation and microbiology and genetics. In my free time, I enjoy listening to music, crocheting, and spending time with friends and family.',
-        photo: require('../../public/images/Saniya Bhatnagar.png')
-      },
-      {
-        name: 'Dhrithi Bhat (Graduate student)',
-        about:
-          'I am currently pursuing a Master’s degree in Computational Life Sciences, building on my undergraduate background in Biotechnology. My research primarily lies in the field of Computational Biology, where I explore biological systems through data-driven and model-based approaches. I have previously worked on Molecular Docking and Dynamics studies, focusing on understanding disease mechanisms in Rheumatoid Arthritis and Alzheimer’s. At present, my research is centred on the computational study of bacterial cells. Beyond academics, I am a trained classical vocalist and have debuted as a playback singer. P.S. I can lose track of time in a library or a cozy café with a good book in hand!',
-        photo: require('../../public/images/Dhrithi Bhat.png')
-      },
+      
       {
         name: 'Armon Malaekeh (PhD student)',
         about:
@@ -68,7 +51,30 @@ const content = {
         photo: require('../../public/images/Nishoni Huber.png')
       },
       
-      
+      {
+        name: 'Saniya Bhatnagar (Master\'s student)',
+        about:
+          'I am currently pursuing my Bachelors of Science degree in Computer Science with a concentration in Software Engineering. I’ve always been interested in biology, especially microbiology and am especially interested in the intersection of computer science and biology with a focus on computational biology. Moving forward, I would like to pursue an education and career in bioinformatics and pursue research that combines computation and microbiology and genetics. In my free time, I enjoy listening to music, crocheting, and spending time with friends and family.',
+        photo: require('../../public/images/Saniya Bhatnagar.png')
+      },
+      {
+        name: 'Dhrithi Bhat (Master\'s student)',
+        about:
+          'I am currently pursuing a Master’s degree in Computational Life Sciences, building on my undergraduate background in Biotechnology. My research primarily lies in the field of Computational Biology, where I explore biological systems through data-driven and model-based approaches. I have previously worked on Molecular Docking and Dynamics studies, focusing on understanding disease mechanisms in Rheumatoid Arthritis and Alzheimer’s. At present, my research is centred on the computational study of bacterial cells. Beyond academics, I am a trained classical vocalist and have debuted as a playback singer. P.S. I can lose track of time in a library or a cozy café with a good book in hand!',
+        photo: require('../../public/images/Dhrithi Bhat.png')
+      },
+      {
+        name: 'Emmiblue Tartevet (Master\'s student)',
+        about:
+          'I am pursuing an M.S. in Molecular & Cellular Biology, and have received my B.S. in Microbiology from North Carolina State University. My undergraduate studies were in plant pathology, but my current research is focused on the structure and function of core T9SS proteins in Flavobacterium johnsoniae. Outside of the lab, I enjoy playing pool, cosplaying at local conventions, and experimenting with sound on my electric bass.',
+        photo: require('../../public/images/Emmiblue Tartevet.png')
+      },
+      {
+        name: 'Ravi Manchikalapati (Undergraduate Researcher)',
+        about:
+          'I am currently studying Biomedical Sciences with a Certificate in Computational Life Sciences. I plan to pursue further education in medicine while continuing my research career, with the goal of advancing biomedical science. My interests lie in exploring the ways microbes affect human health and in investigating the processes governing bacterial movement across surfaces. I enjoy working out in the gym, spending time with friends and family, cooking, and listening to music.',
+        photo: require('../../public/images/Ravi Manchikalapati.png')
+      },
       
       
     ],
