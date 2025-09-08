@@ -64,7 +64,7 @@ const content = {
         photo: require('../../public/images/Dhrithi Bhat.png')
       },
       {
-        name: 'Emmiblue Tartevet (Master\'s student)',
+        name: 'Blue Tartevet (Master\'s student)',
         about:
           'I am pursuing an M.S. in Molecular & Cellular Biology, and have received my B.S. in Microbiology from North Carolina State University. My undergraduate studies were in plant pathology, but my current research is focused on the structure and function of core T9SS proteins in Flavobacterium johnsoniae. Outside of the lab, I enjoy playing pool, cosplaying at local conventions, and experimenting with sound on my electric bass.',
         photo: require('../../public/images/Emmiblue Tartevet.png')
